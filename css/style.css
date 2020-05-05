@@ -12,6 +12,8 @@ body {
 
 header {
   margin-bottom: 5px;
+  height: 100px;
+  line-height: 100px;
 }
 
 main {
@@ -36,12 +38,16 @@ footer {
 
 .logo {
   width: 100px;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .logo-text {
   font-weight: normal;
   display: inline-block;
   font-size: 25px;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 /* qui inizia la parte riguardo la sezione di ricerca e info */
