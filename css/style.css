@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/wood.jpg);
+  background-size: cover;
+  color: white;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+main {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+/* conteiner comprende tutto il body */
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* qui inizia la parte riguardo a l'header */
+
+.logo {
+  width: 100px;
+}
+
+.logo-text {
+  font-weight: normal;
+  display: inline-block;
+  font-size: 25px;
+}
+
+/* qui inizia la parte riguardo la sezione di ricerca e info */
+
+#searchAndInfo {
+  border-top: 1px solid white;
+  padding-top: 5px;
+}
+#unreadEmails {
+  display: block;
+  font-size: 20px;
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+
+#numberOfUnread {
+  border-radius: 50%;
+  background-color: #f4a641;
+  padding: 3px;
+}
+
+.search {
+  margin: 5px 0px;
+}
+
+/* qui inizia la parte riguardo il contenuto della pagina */
+
+.read {
+  background-color: lightgrey;
+}
+
+.unread {
+  background-color: white;
+}
+
+.raw-left {
+  display: inline-block;
+  width: 35%;
+  margin-left: 5px;
+}
+
+.raw-right {
+  width: 63%;
+  display: inline-block;
+}
+
+.subject {
+  color: black;
+}
+
+.content {
+  color: grey;
+}
+
+.raw {
+  border: 0.5px solid black;
+}
+
+.star {
+  color: black;
+}
+
+/* qui inizia la parte riguardo il footer della pagina */
+
+#powered {
+  font-size: 25px;
+}

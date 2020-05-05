@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- Qui c'è l'header con logo e sigla -->
+
+      <header>
+        <img class="logo" src="img/gmail_logo.png" alt="logo gmail">
+        <h2 class="logo-text">Gmail</h2>
+      </header>
+
+      <!-- Qui inizia la sezione di ricerca e info -->
+
+      <div id="searchAndInfo">
+        <form class="search" action="index.html" method="post">
+          <input type="text" name="search" placeholder="Search">
+          <input type="submit" name="" value="Vai">
+        </form>
+        <span id="unreadEmails">You have <span id="numberOfUnread">30</span> unread</span>
+      </div>
+
+      <!-- Qui inizia il contenuto della pagina con le varie mail lette o da leggere -->
+
+      <main>
+
+        <div class="raw read">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è l'oggetto della mail lungo</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail blablablablablablabla</span>
+          </div>
+        </div>
+
+        <div class="raw unread">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è corto</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="raw unread">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è corto</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail blablablablablablabla</span>
+          </div>
+        </div>
+
+        <div class="raw read">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è corto</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="raw read">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è corto</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail blablablablablablabla</span>
+          </div>
+        </div>
+
+        <div class="raw unread">
+          <div class="raw-left">
+            <input type="checkbox">
+            <span class="star">&#9733;</span>
+            <span class="subject">Questo è l'oggetto della mail lungo</span>
+          </div>
+          <div class="raw-right">
+            <span class="content">Testo della mail</span>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- Qui inizia il footer -->
+
+      <footer>
+        <span><span id="powered">Gmail</span><em> powered by Boolean</em></span>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
